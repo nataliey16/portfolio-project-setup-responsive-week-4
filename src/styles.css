@@ -87,4 +87,13 @@ p {
   .homepage-header {
     padding: 80px 10px;
   }
+
+  .btn-branding-outline {
+    display: block;
+    margin: 0 auto;
+  }
+
+  p {
+    text-align: center;
+  }
 }
