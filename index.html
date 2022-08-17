@@ -35,13 +35,44 @@
     <title>SheCodes</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="nav-bar d-flex justify-content-between">
+        <img
+          src="images/logo.jpg"
+          alt="logo-img"
+          class="d-none d-md-block logo img-fluid mt-2"
+        />
+        <img
+          src="images/mobile-logo.jpeg"
+          alt="small-logo-img"
+          class="d-block d-md-none logo img-fluid mt-2"
+        />
+
+        <ul>
+          <li class="active">
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about.html">About</a>
+          </li>
+          <li>
+            <a href="/work.html">Projects</a>
+          </li>
+          <li>
+            <a href="/contact.html"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="homepage-header">
       <p>👋🏼 Hello, I am</p>
       <h1 class="mb-3">Natalie Yeung</h1>
       <h2 class="mb-4">Aspiring Front-end developer based in Canada 🇨🇦</h2>
-      <a href="contact.html" class="btn btn-branding me-2">Contact me</a>
-      <a href="about.html" class="btn btn-branding ms-2">About me</a>
-      <a href="work.html" class="btn btn-branding ms-2">My projects</a>
+      <div class="d-flex justify-content-center">
+        <a href="contact.html" class="btn btn-branding ms-2 mb-2">Contact me</a>
+        <a href="about.html" class="btn btn-branding ms-2 mb-2">About me</a>
+        <a href="work.html" class="btn btn-branding ms-2 mb-2">My projects</a>
+      </div>
     </div>
     <p class="text-center m-5">
       Featured Project which my best projects be choice to show
