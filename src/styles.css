@@ -107,6 +107,12 @@ p {
   padding: 70px 0px;
 }
 
+.work-homepage-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
