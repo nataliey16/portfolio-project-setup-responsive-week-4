@@ -46,15 +46,25 @@ p {
 .content {
   padding: 32px;
 }
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.content-container h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
+
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+}
+
+.content p {
+  font-size: 14px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   color: #ffffff;
@@ -65,7 +75,7 @@ p {
   line-height: 27px;
 }
 
-.content-container img {
+.content img {
   display: block;
   margin: 0 auto;
   border-radius: 10px;
