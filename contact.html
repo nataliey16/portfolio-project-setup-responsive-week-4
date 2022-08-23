@@ -32,9 +32,43 @@
       src="https://kit.fontawesome.com/3b18046631.js"
       crossorigin="anonymous"
     ></script>
-    <title>Contact me</title>
+    <meta
+      name="description"
+      content="Contact Natalie - She is an aspiring front-end developer based in Canada"
+    />
+    <title>Contact Natalie - Natalie Yeung</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="nav-bar d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.jpg"
+            alt="logo-img"
+            class="d-none d-md-block logo img-fluid mt-2"
+          />
+          <img
+            src="images/mobile-logo.jpeg"
+            alt="small-logo-img"
+            class="d-block d-md-none logo img-fluid mt-2"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Natalie">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Natasha's Projects">Projects</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Natasha"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
@@ -52,6 +86,46 @@
         </p>
         <a href="index.html" class="btn btn-branding">Back to homepage</a>
       </div>
+      <footer class="mb-5">
+        <div class="contact-box d-flex justify-content-between">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="contact-box-btn btn btn-branding"
+              title="Contact Natalie"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="mailto:natalie.y@gmail.com" class="email-link"
+            >natalie.y@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.instagram.com/instagram/?hl=en"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://github.com/" title="Github Profile">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.facebook.com/facebook/" title="Facebook Profile">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </div>
+        <p class="text-center">
+          This project was coded by Natalie Yeung. It is
+          <a href="https://github.com/">open-sourced.</a>
+        </p>
+      </footer>
     </div>
   </body>
 </html>

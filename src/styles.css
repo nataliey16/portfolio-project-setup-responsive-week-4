@@ -75,7 +75,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 70px 20px;
 }
 
 .content {
@@ -162,7 +162,7 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer h4 {
+footer h3 {
   font-family: var(--heading-font-family);
   font-size: 64px;
 }
@@ -225,6 +225,16 @@ footer .social-links a:hover {
     line-height: 27px;
   }
 
+  .about-btn a {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .about-section-headshot img {
+    width: 100%;
+    height: auto;
+  }
+
   p {
     text-align: center;
   }
@@ -245,7 +255,7 @@ footer .social-links a:hover {
   footer .contact-box a {
     margin: 10px 0 0;
   }
-  footer h4 {
+  footer h3 {
     font-size: 24px;
   }
 
